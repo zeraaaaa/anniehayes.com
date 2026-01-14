@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Press kit and EPK materials for Annie Hayes - Photos, press releases, and media resources">
+    <title>Press - Annie Hayes</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Annie Hayes</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="shows.html">Shows</a></li>
+                    <li><a href="press.html" class="active">Press</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Press Kit</h1>
+            </div>
+        </section>
+
+        <section class="press-photos-section">
+            <div class="container">
+                <h2>Press Photos</h2>
+                <p class="section-intro">High-resolution press photos available for download. Click on any image to view full size.</p>
+                <div class="photo-gallery" id="photo-gallery">
+                    <div class="gallery-item">
+                        <img src="assets/images/placeholder-press-1.jpg" alt="Press Photo 1" class="gallery-image" data-full="assets/images/placeholder-press-1.jpg">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/placeholder-press-2.jpg" alt="Press Photo 2" class="gallery-image" data-full="assets/images/placeholder-press-2.jpg">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/placeholder-press-3.jpg" alt="Press Photo 3" class="gallery-image" data-full="assets/images/placeholder-press-3.jpg">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/placeholder-press-4.jpg" alt="Press Photo 4" class="gallery-image" data-full="assets/images/placeholder-press-4.jpg">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/placeholder-press-5.jpg" alt="Press Photo 5" class="gallery-image" data-full="assets/images/placeholder-press-5.jpg">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/placeholder-press-6.jpg" alt="Press Photo 6" class="gallery-image" data-full="assets/images/placeholder-press-6.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="press-materials-section">
+            <div class="container">
+                <h2>Downloadable Materials</h2>
+                <div class="materials-grid">
+                    <div class="material-card">
+                        <h3>EPK Package</h3>
+                        <p>Complete electronic press kit including bio, photos, and press release.</p>
+                        <a href="#" class="btn btn-primary" download>Download EPK</a>
+                    </div>
+                    <div class="material-card">
+                        <h3>Press Release</h3>
+                        <p>Latest press release and news updates.</p>
+                        <a href="#" class="btn btn-primary" download>Download PDF</a>
+                    </div>
+                    <div class="material-card">
+                        <h3>One Sheet</h3>
+                        <p>One-page artist summary and key information.</p>
+                        <a href="#" class="btn btn-primary" download>Download PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="press-quotes-section">
+            <div class="container">
+                <h2>Press Quotes</h2>
+                <div class="quotes-grid">
+                    <blockquote class="quote-card">
+                        <p>"[Press quote about the artist goes here. This could be from a music publication, blog, or review.]"</p>
+                        <cite>— [Publication Name], [Date]</cite>
+                    </blockquote>
+                    <blockquote class="quote-card">
+                        <p>"[Another press quote highlighting different aspects of the artist's work or performance.]"</p>
+                        <cite>— [Publication Name], [Date]</cite>
+                    </blockquote>
+                    <blockquote class="quote-card">
+                        <p>"[Additional press quote that adds credibility and showcases critical reception.]"</p>
+                        <cite>— [Publication Name], [Date]</cite>
+                    </blockquote>
+                    <blockquote class="quote-card">
+                        <p>"[Another compelling quote from a respected music publication or critic.]"</p>
+                        <cite>— [Publication Name], [Date]</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="press-contact-section">
+            <div class="container">
+                <h2>Press Inquiries</h2>
+                <p>For press inquiries, interview requests, or additional media resources, please contact:</p>
+                <p><strong>Email:</strong> <a href="mailto:press@example.com">press@example.com</a></p>
+                <p><a href="contact.html" class="btn btn-primary">Contact Form</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Image lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+        <button class="lightbox-next" aria-label="Next image">&#8250;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-image">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Annie Hayes</h3>
+                    <p>Official website</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/annie.hayes1/" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/annie.hayes.1422409" aria-label="Facebook">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/@anniehayes1" aria-label="YouTube">YouTube</a></li>
+                        <li><a href="https://open.spotify.com/artist/4s1VncXzZIlDOjuaZ1eLeG" aria-label="Spotify">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="shows.html">Shows</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Annie Hayes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Listen to music by Annie Hayes - Albums, singles, and streaming links">
+    <title>Music - Annie Hayes</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Annie Hayes</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html" class="active">Music</a></li>
+                    <li><a href="shows.html">Shows</a></li>
+                    <li><a href="press.html">Press</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Music</h1>
+            </div>
+        </section>
+
+        <section class="preview-player-section">
+            <div class="container">
+                <div class="preview-player-container">
+                    <div class="preview-player-info">
+                        <img src="assets/images/placeholder-album.jpg" alt="Preview" class="preview-album-art">
+                        <div class="preview-track-info">
+                            <h3 class="preview-track-title">Track Preview</h3>
+                            <p class="preview-track-artist">Annie Hayes</p>
+                            <p class="preview-note">30 second preview - Listen in full on streaming platforms</p>
+                        </div>
+                    </div>
+                    <audio id="preview-player" preload="metadata">
+                        <source src="assets/audio/placeholder-preview.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="preview-controls">
+                        <button class="btn btn-primary" id="preview-play-btn" aria-label="Play preview">▶ Play Preview</button>
+                        <span class="preview-time" id="preview-time">0:00 / 0:30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="releases-section">
+            <div class="container">
+                <h2>Releases</h2>
+                <div class="releases-grid">
+                    <div class="release-card">
+                        <div class="release-image">
+                            <img src="assets/images/placeholder-album.jpg" alt="Album Title">
+                        </div>
+                        <div class="release-info">
+                            <h3>Album/Single Title</h3>
+                            <p class="release-date">[Release Date]</p>
+                            <p class="release-description">Description of the release, genre, or notable tracks.</p>
+                            <div class="release-links">
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on Spotify">Spotify</a>
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Music">Apple Music</a>
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on YouTube Music">YouTube Music</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="release-card">
+                        <div class="release-image">
+                            <img src="assets/images/placeholder-album.jpg" alt="Album Title">
+                        </div>
+                        <div class="release-info">
+                            <h3>Album/Single Title</h3>
+                            <p class="release-date">[Release Date]</p>
+                            <p class="release-description">Description of the release, genre, or notable tracks.</p>
+                            <div class="release-links">
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on Spotify">Spotify</a>
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Music">Apple Music</a>
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on YouTube Music">YouTube Music</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="release-card">
+                        <div class="release-image">
+                            <img src="assets/images/placeholder-album.jpg" alt="Album Title">
+                        </div>
+                        <div class="release-info">
+                            <h3>Album/Single Title</h3>
+                            <p class="release-date">[Release Date]</p>
+                            <p class="release-description">Description of the release, genre, or notable tracks.</p>
+                            <div class="release-links">
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on Spotify">Spotify</a>
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Music">Apple Music</a>
+                                <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer" aria-label="Listen on YouTube Music">YouTube Music</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="streaming-section">
+            <div class="container">
+                <h2>Stream on All Platforms</h2>
+                <p class="section-intro">Listen to Annie Hayes on your favorite streaming service</p>
+                <div class="streaming-links">
+                    <a href="https://open.spotify.com/artist/4s1VncXzZIlDOjuaZ1eLeG" class="streaming-platform" target="_blank" rel="noopener noreferrer" aria-label="Listen on Spotify">
+                        <span class="platform-name">Spotify</span>
+                    </a>
+                    <a href="#" class="streaming-platform" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Music">
+                        <span class="platform-name">Apple Music</span>
+                    </a>
+                    <a href="https://www.youtube.com/@anniehayes1" class="streaming-platform" target="_blank" rel="noopener noreferrer" aria-label="Listen on YouTube Music">
+                        <span class="platform-name">YouTube Music</span>
+                    </a>
+                    <a href="#" class="streaming-platform" target="_blank" rel="noopener noreferrer" aria-label="Listen on Amazon Music">
+                        <span class="platform-name">Amazon Music</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Annie Hayes</h3>
+                    <p>Official website</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/annie.hayes1/" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/annie.hayes.1422409" aria-label="Facebook">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/@anniehayes1" aria-label="YouTube">YouTube</a></li>
+                        <li><a href="https://open.spotify.com/artist/4s1VncXzZIlDOjuaZ1eLeG" aria-label="Spotify">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="shows.html">Shows</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Annie Hayes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/preview-player.js"></script>
+</body>
+</html>

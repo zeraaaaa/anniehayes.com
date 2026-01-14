@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Annie Hayes for booking, press inquiries, and more">
+    <title>Contact - Annie Hayes</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Annie Hayes</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="shows.html">Shows</a></li>
+                    <li><a href="press.html">Press</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact</h1>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>For booking inquiries, press requests, or general questions, please use the form or contact information below.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3>General</h3>
+                                <p>Email: <a href="mailto:info@example.com">enquiries@anniehayes.com</a></p>
+                                <p>Phone: +44 7541 137430</p>
+                            </div>
+                        </div>
+
+                        <div class="social-contact">
+                            <h3>Follow</h3>
+                            <ul class="social-links">
+                                <li><a href="https://www.instagram.com/annie.hayes1/" aria-label="Instagram">Instagram</a></li>
+                                <li><a href="https://www.facebook.com/annie.hayes.1422409" aria-label="Facebook">Facebook</a></li>
+                                <li><a href="https://www.youtube.com/@anniehayes1" aria-label="YouTube">YouTube</a></li>
+                                <li><a href="https://open.spotify.com/artist/4s1VncXzZIlDOjuaZ1eLeG" aria-label="Spotify">Spotify</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <select id="subject" name="subject" required aria-required="true">
+                                    <option value="">Select a subject</option>
+                                    <option value="booking">Booking Inquiry</option>
+                                    <option value="press">Press Inquiry</option>
+                                    <option value="general">General Question</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <div class="form-message" id="form-message"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Annie Hayes</h3>
+                    <p>Official website</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/annie.hayes1/" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/annie.hayes.1422409" aria-label="Facebook">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/@anniehayes1" aria-label="YouTube">YouTube</a></li>
+                        <li><a href="https://open.spotify.com/artist/4s1VncXzZIlDOjuaZ1eLeG" aria-label="Spotify">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="shows.html">Shows</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Annie Hayes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
